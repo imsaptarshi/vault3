@@ -3,7 +3,7 @@ export default function getBase64(file: any) {
     const reader = new FileReader();
     reader.readAsDataURL(file);
     reader.onload = () => resolve(reader.result);
-    reader.onerror = error => reject(error);
+    reader.onerror = (error) => reject(error);
   });
 }
 
@@ -16,6 +16,6 @@ export const getBase64FromUrl = async (url: string) => {
     reader.onloadend = () => {
       const base64data = reader.result;
       resolve(base64data);
-    }
+    };
   });
-}
+};

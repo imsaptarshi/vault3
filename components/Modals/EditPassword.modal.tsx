@@ -20,12 +20,7 @@ import {
   Spinner,
 } from "@chakra-ui/react";
 import React, { useContext, useEffect, useState } from "react";
-import {
-  FaLink,
-  FaSave,
-  FaStarOfLife,
-  FaUser,
-} from "react-icons/fa";
+import { FaLink, FaSave, FaStarOfLife, FaUser } from "react-icons/fa";
 import fileGetter from "../../utils/helpers/fileGetter";
 import passwordGetter from "../../utils/helpers/passwordGetter";
 import { FileContext } from "../../utils/providers/File.provider";

@@ -61,6 +61,20 @@ export default function Footer() {
             </Flex>
           </Flex>
         </NextLink>
+
+        <a
+          href="https://www.producthunt.com/posts/vault3-1?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-vault3-1"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Image
+            src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=327816&theme=dark&period=daily"
+            alt="Vault3 - A safe, decentralized vault for your files | Product Hunt"
+            width="200"
+            height="45"
+          />
+        </a>
+
         <Grid
           mt={{ base: "10", md: "0" }}
           templateColumns={{
